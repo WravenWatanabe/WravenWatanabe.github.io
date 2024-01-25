@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+
+        <link
+            href="https://fonts.googleapis.com/css?family=Bitter"
+            rel="stylesheet" />
+        <link href="style2.css" rel="stylesheet" />
+
+        <title>My test page</title>
+        <h1>Some of my digital artwork</h1>
+
+        <body>
+            <body style="background-color:#7e779e;"></body>
+
+            <div id="buttonContainer">
+                <button id="navigateButton">Back to home</button>
+            </div>
+            <script>
+
+        const navigateButton = document.getElementById('navigateButton');
+
+        navigateButton.addEventListener('click', function(){
+            window.location.href = 'index.html';
+        });
+
+    </script>
+
+            <img src="snake.png" alt="Snake design" class="image1">
+
+            <button id="snakeButton" class="like-button"
+                onclick="toggleLike()">Like</button>
+            <p id="likeCount">0 likes</p>
+            <script>
+            let likeCount = 0, isLiked = false;
+            const toggleLike = () => (likeCount++, isLiked = !isLiked, updateLikeCount());
+            const updateLikeCount = () => {
+                const likeButton = document.getElementById('snakeButton');
+                const likeCountElement = document.getElementById('likeCount');
+                likeCountElement.textContent = `${likeCount} ${likeCount === 1 ? 'like' : 'likes'}`;
+            };
+    </script>
+
+            <img src="imo.png" alt="Drawing of an I-Mo" class="image2">
+
+            <button id="imoButton" class="like-button"
+                onclick="toggleLike2()">Like</button>
+            <p id="likeCount2">0 likes</p>
+            <script>
+            let likeCount2 = 0, isLiked2 = false;
+            const toggleLike2 = () => (likeCount2++, isLiked2 = !isLiked2, updateLikeCount2());
+            const updateLikeCount2 = () => {
+                const likeButton = document.getElementById('imoButton');
+                const likeCount2Element = document.getElementById('likeCount2');
+                likeCount2Element.textContent = `${likeCount2} ${likeCount2 === 1 ? 'like' : 'likes'}`;
+            };
+    </script>
+
+        </body>
