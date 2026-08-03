@@ -12,6 +12,19 @@ h1 {
   margin: 0 auto;
 }
 
+
+nav {
+  background-color:#8cec2d;
+  color: #6609c3;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  
+
+}
+
+
 body {
   color: #09c3bd;
   width: 600px;
@@ -19,6 +32,17 @@ body {
   padding: 0 20px 20px 20px;
   font-size: 17px;
 }
+
+footer {
+  background-color: #8cec2d;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color:#09c3bd;
+  text-align: center;
+}
+
 
 #li {
   width: 500px;
