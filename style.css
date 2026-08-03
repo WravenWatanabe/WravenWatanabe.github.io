@@ -15,11 +15,11 @@ h1 {
 
 nav {
   background-color:#8cec2d;
-  color: #6609c3;
-  position: fixed;
+  color: #09c3bd;
+  position: relative;
   left: 0;
-  width: 100%;
-  text-align: center;
+  width: max-content;
+  text-align: left;
   
 
 }
@@ -39,7 +39,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color:#09c3bd;
+  color:#04aea8;
   text-align: center;
 }
 
