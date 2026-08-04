@@ -18,10 +18,12 @@ nav {
   color: #09c3bd;
   position: relative;
   left: 0;
-  width: 70%;
-  text-align: left;
+  width: 100%;
+  text-align: center;
+  height: 26px;
+  border-radius: 5px;
+  font-size: 20px;
   
-
 }
 
 
@@ -41,6 +43,8 @@ footer {
   width: 100%;
   color:#04aea8;
   text-align: center;
+  border-radius: 5px;
+  height: min-content;
 }
 
 
