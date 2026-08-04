@@ -14,11 +14,11 @@ h1 {
 
 
 nav {
-  background-color:#8cec2d;
+  background-color:hsl(300, 87%, 52%);
   color: #09c3bd;
   position: relative;
   left: 0;
-  width: max-content;
+  width: 70%;
   text-align: left;
   
 
