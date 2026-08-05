@@ -18,19 +18,22 @@ h1 {
 }
 
 h1:hover {
-  color: #e67742;
+  color: #09c3bd;
 }
 
-h2:hover {
+h2 {
   color: #8cec2d;
+}
+h2:hover {
+  color: #e67742;
 }
 
 h3 {
-  color: #e67742;
+  color: #ea00d3;
 }
 
 h3:hover {
-  color: #ea00d3;
+  color: #8cec2d;
 }
 
 nav {
@@ -47,14 +50,14 @@ nav {
 }
 
 nav:hover {
-  color: #8cec2d;
+  color: #ea00d3;
   display: block;
   background-color: #e67742;
   width: 100%;
 }
 
 nav ul a:hover {
-  color: #8cec2d;
+  color: #09c3bd;
 }
 
 footer {
