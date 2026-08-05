@@ -28,7 +28,7 @@ nav {
   width: 100%;
   text-align: center;
   height: 26px;
-  border-radius: 5px;
+  border-radius: 1px;
   font-size: 20px;
   display: block;
   
@@ -61,7 +61,7 @@ footer {
   width: 100%;
   color:#e67742;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 1px;
   height: min-content;
   font-size:smaller;
 }
@@ -69,6 +69,11 @@ footer {
 footer:hover{
   background-color:#ea00d3;
   color:#8cec2d;
+}
+
+img:hover{
+  width: 20%;
+  height: 20%;
 }
 
 
