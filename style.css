@@ -1,7 +1,12 @@
 body {
   font-family: "Courier New", Helvetica, Arial, sans-serif;
+  background-color: black;
+  color: #09c3bd;
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  font-size: 17px;
 }
-
 
 h1 {
   color: #8cec2d;
@@ -12,24 +17,24 @@ h1 {
   margin: 0 auto;
 }
 
-h1:hover{
+h1:hover {
   color: #e67742;
 }
 
-h2:hover{
+h2:hover {
   color: #8cec2d;
 }
 
 h3 {
-  color:#e67742;
+  color: #e67742;
 }
 
 h3:hover {
-  color:#ea00d3;
+  color: #ea00d3;
 }
 
 nav {
-  background-color:#ea00d3;
+  background-color: #ea00d3;
   color: #09c3bd;
   position: relative;
   left: 0;
@@ -39,8 +44,8 @@ nav {
   border-radius: 1px;
   font-size: 20px;
   display: block;
-  
 }
+
 nav:hover {
   color: #8cec2d;
   display: block;
@@ -52,35 +57,20 @@ nav ul a:hover {
   color: #8cec2d;
 }
 
-body {
-  background-color: black;
-  color: #09c3bd;
-  width: 600px;
-  margin: 0 auto;
-  padding: 0 20px 20px 20px;
-  font-size: 17px;
-}
-
 footer {
   background-color: #8cec2d;
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  color:#e67742;
+  color: #e67742;
   text-align: center;
   border-radius: 1px;
-  height: min-content;
-  font-size:smaller;
+  height: 20px;
+  font-size: smaller;
 }
 
-footer:hover{
-  background-color:#ea00d3;
-  color:#8cec2d;
-}
-
-
-#li {
-  width: 500px;
-  text-align: center;
+footer:hover {
+  background-color: #ea00d3;
+  color: #8cec2d;
 }
