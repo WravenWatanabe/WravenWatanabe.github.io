@@ -12,9 +12,16 @@ h1 {
   margin: 0 auto;
 }
 
+h1:hover{
+  color: #e67742;
+}
+
+h2:hover{
+  color: #8cec2d;
+}
 
 nav {
-  background-color:hsl(300, 87%, 52%);
+  background-color:#ea00d3;
   color: #09c3bd;
   position: relative;
   left: 0;
@@ -23,11 +30,22 @@ nav {
   height: 26px;
   border-radius: 5px;
   font-size: 20px;
+  display: block;
   
 }
+nav:hover {
+  color: #8cec2d;
+  display: block;
+  background-color: #e67742;
+  width: 100%;
+}
 
+nav ul a:hover {
+  color: #8cec2d;
+}
 
 body {
+  background-color: black;
   color: #09c3bd;
   width: 600px;
   margin: 0 auto;
@@ -41,11 +59,18 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  color:#04aea8;
+  color:#e67742;
   text-align: center;
   border-radius: 5px;
   height: min-content;
+  font-size:smaller;
 }
+
+footer:hover{
+  background-color:#ea00d3;
+  color:#8cec2d;
+}
+
 
 
 #li {
