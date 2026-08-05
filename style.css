@@ -20,6 +20,14 @@ h2:hover{
   color: #8cec2d;
 }
 
+h3 {
+  color:#e67742;
+}
+
+h3:hover {
+  color:#ea00d3;
+}
+
 nav {
   background-color:#ea00d3;
   color: #09c3bd;
@@ -70,12 +78,6 @@ footer:hover{
   background-color:#ea00d3;
   color:#8cec2d;
 }
-
-img:hover{
-  width: 20%;
-  height: 20%;
-}
-
 
 
 #li {
