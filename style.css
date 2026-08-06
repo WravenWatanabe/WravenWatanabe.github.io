@@ -60,6 +60,42 @@ nav ul a:hover {
   color: #09c3bd;
 }
 
+table,
+th,
+td {
+  border: 1px solid #09c3bd;
+  background-color: black;
+}
+
+
+table {
+  overflow:auto;
+  width: 100%;
+  max-width: max-content;
+  height: 240px;
+  display: block;
+  margin: 0 auto;
+  border: 1px #09c3bd;
+  border-spacing: 0;
+  left: 0 auto;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  vertical-align: bottom;
+  background-color: black;
+}
+
+td {
+  border: 1px solid #09c3bd;
+  padding: 8px 10px;
+}
+
+thead {
+  border-bottom-width: 1px #09c3bd;
+}
+
 footer {
   background-color: #8cec2d;
   position: fixed;
