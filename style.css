@@ -16,7 +16,6 @@ h1 {
   padding: 50px 10px 10px 10px;
   margin: 0 auto;
 }
-
 h1:hover {
   color: #09c3bd;
 }
@@ -31,7 +30,6 @@ h2:hover {
 h3 {
   color: #ea00d3;
 }
-
 h3:hover {
   color: #8cec2d;
 }
@@ -48,37 +46,36 @@ nav {
   font-size: 20px;
   display: block;
 }
-
 nav:hover {
   color: #ea00d3;
   display: block;
   background-color: #e67742;
   width: 100%;
 }
-
 nav ul a:hover {
   color: #09c3bd;
 }
 
 table {
-  border: 1px solid #09c3bd;
+  border-bottom: 1px solid #09c3bd;
   overflow:auto;
   width: 100%;
   max-width: max-content;
   height: 240px;
   display: block;
   margin: 0 auto;
-  border: 1px #09c3bd;
   border-spacing: 0;
   left: 0 auto;
 }
-
 thead {
   position: sticky;
   top: 0;
   background-color: black;
 }
-
+th {
+  border: 1px solid #09c3bd;
+  padding: 8px 10px;
+}
 td {
   border: 1px solid #09c3bd;
   padding: 8px 10px;
@@ -96,7 +93,6 @@ footer {
   height: 20px;
   font-size: smaller;
 }
-
 footer:hover {
   background-color: #ea00d3;
   color: #8cec2d;
