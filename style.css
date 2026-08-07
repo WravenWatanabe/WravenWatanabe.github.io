@@ -60,15 +60,8 @@ nav ul a:hover {
   color: #09c3bd;
 }
 
-table,
-th,
-td {
-  border: 1px solid #09c3bd;
-  background-color: black;
-}
-
-
 table {
+  border: 1px solid #09c3bd;
   overflow:auto;
   width: 100%;
   max-width: max-content;
@@ -80,20 +73,16 @@ table {
   left: 0 auto;
 }
 
-th {
+thead {
   position: sticky;
   top: 0;
-  vertical-align: bottom;
   background-color: black;
+  border: 1px solid #09c3bd;
 }
 
 td {
   border: 1px solid #09c3bd;
   padding: 8px 10px;
-}
-
-thead {
-  border-bottom-width: 1px #09c3bd;
 }
 
 footer {
