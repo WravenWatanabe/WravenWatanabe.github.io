@@ -80,6 +80,7 @@ table {
 table caption {
   color: #ea00d3;
   caption-side: bottom;
+  padding: 5px;
 }
 table caption:hover {
   color: #e67742;
