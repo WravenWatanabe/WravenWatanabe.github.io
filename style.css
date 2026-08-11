@@ -28,7 +28,7 @@ h2:hover {
 }
 
 h3 {
-  color: #ea00d3;
+  color: #e67742;
 }
 h3:hover {
   color: #8cec2d;
@@ -56,8 +56,18 @@ nav ul a:hover {
   color: #09c3bd;
 }
 
+nav a {
+  color: black;
+}
+
+a {
+  color: #ea00d3;
+}
+
 table {
   border-bottom: 1px solid #09c3bd;
+  border-left: 1px solid #09c3bd;
+  border-right: 1px solid #09c3bd;
   overflow:auto;
   width: 100%;
   max-width: max-content;
@@ -66,6 +76,13 @@ table {
   margin: 0 auto;
   border-spacing: 0;
   left: 0 auto;
+}
+table caption {
+  color: #ea00d3;
+  caption-side: bottom;
+}
+table caption:hover {
+  color: #e67742;
 }
 thead {
   position: sticky;
@@ -80,6 +97,7 @@ td {
   border: 1px solid #09c3bd;
   padding: 8px 10px;
 }
+
 
 footer {
   background-color: #8cec2d;
@@ -97,3 +115,4 @@ footer:hover {
   background-color: #ea00d3;
   color: #8cec2d;
 }
+
