@@ -28,7 +28,8 @@ h2:hover {
 }
 
 h3 {
-  color: #e67742;
+  color: #ea00d3;
+  text-align: center;
 }
 h3:hover {
   color: #8cec2d;
@@ -64,40 +65,7 @@ a {
   color: #ea00d3;
 }
 
-table {
-  border-bottom: 1px solid #09c3bd;
-  border-left: 1px solid #09c3bd;
-  border-right: 1px solid #09c3bd;
-  overflow:auto;
-  width: 100%;
-  max-width: max-content;
-  height: 240px;
-  display: block;
-  margin: 0 auto;
-  border-spacing: 0;
-  left: 0 auto;
-}
-table caption {
-  color: #ea00d3;
-  caption-side: bottom;
-  padding: 5px;
-}
-table caption:hover {
-  color: #e67742;
-}
-thead {
-  position: sticky;
-  top: 0;
-  background-color: black;
-}
-th {
-  border: 1px solid #09c3bd;
-  padding: 8px 10px;
-}
-td {
-  border: 1px solid #09c3bd;
-  padding: 8px 10px;
-}
+
 
 
 footer {
