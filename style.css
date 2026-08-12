@@ -19,14 +19,12 @@ h1 {
 h1:hover {
   color: #09c3bd;
 }
-
 h2 {
   color: #8cec2d;
 }
 h2:hover {
   color: #e67742;
 }
-
 h3 {
   color: #ea00d3;
   text-align: center;
@@ -64,9 +62,6 @@ nav a {
 a {
   color: #ea00d3;
 }
-
-
-
 
 footer {
   background-color: #8cec2d;
