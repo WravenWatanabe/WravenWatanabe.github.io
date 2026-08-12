@@ -6,6 +6,11 @@ body {
   margin: 0 auto;
   padding: 0 20px 20px 20px;
   font-size: 17px;
+
+}
+
+.scroller {
+  scrollbar-color: #8cec2d #09c3bd;
 }
 
 h1 {
@@ -16,19 +21,24 @@ h1 {
   padding: 50px 10px 10px 10px;
   margin: 0 auto;
 }
+
 h1:hover {
   color: #09c3bd;
 }
+
 h2 {
   color: #8cec2d;
 }
+
 h2:hover {
   color: #e67742;
 }
+
 h3 {
   color: #ea00d3;
   text-align: center;
 }
+
 h3:hover {
   color: #8cec2d;
 }
@@ -44,13 +54,16 @@ nav {
   border-radius: 1px;
   font-size: 20px;
   display: block;
+  border-radius: 2px;
 }
+
 nav:hover {
   color: #ea00d3;
   display: block;
   background-color: #e67742;
   width: 100%;
 }
+
 nav ul a:hover {
   color: #09c3bd;
 }
@@ -75,8 +88,9 @@ footer {
   height: 20px;
   font-size: smaller;
 }
+
 footer:hover {
   background-color: #ea00d3;
   color: #8cec2d;
+  border-radius: 2px;
 }
-
