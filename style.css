@@ -17,8 +17,16 @@ h1 {
   font-size: 38px;
   width: 600px;
   text-align: left;
-  padding: 50px 10px 10px 10px;
+  padding: 
   margin: 0 auto;
+}
+
+h1 a {
+  color: #09c3bd;
+  font-size: 20px;
+  float: right;
+  padding: 12px 10px 0px 0px;
+  text-decoration: none;
 }
 
 h1:hover {
@@ -41,8 +49,10 @@ h3 {
 h3:hover {
   color: #8cec2d;
 }
+
 hr {
   color: #ea00d3;
+  border-style: dashed;
 }
 
 nav {
