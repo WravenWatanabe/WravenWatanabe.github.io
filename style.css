@@ -24,7 +24,7 @@ h1 ul {
   font-size: 20px;
   color: #09c3bd;
   list-style-type: none;
-  display:inline;
+  display: inline;
   width: min-content;
 }
 
@@ -90,6 +90,29 @@ nav a {
 
 a {
   color: #ea00d3;
+}
+
+form {
+  display: table;
+  border: 1px dashed #09c3bd;
+  width: 530px;
+  margin: 0 auto;
+    padding: 10px 0px 0px 10px;
+
+}
+
+label {
+  padding: 5px 17px 5px;
+
+}
+
+input {
+  color: #09c3bd;
+  background-color: black;
+  display: block;
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid#09c3bd;
 }
 
 footer {
