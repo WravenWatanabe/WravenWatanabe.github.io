@@ -32,7 +32,7 @@ h1 a {
   color: #09c3bd;
   font-size: 20px;
   float: right;
-  padding: 13px 16px 0px 0px;
+  padding: 13px 20px 0px 0px;
   text-decoration: none;
 }
 
@@ -124,10 +124,11 @@ footer {
   color: #e67742;
   text-align: center;
   border-radius: 1px;
-  height: 22px;
+  height: fit-content;
   font-size: smaller;
-  padding-top: 3px;
+  padding: 3px;
 }
+
 
 footer:hover {
   background-color: #ea00d3;
