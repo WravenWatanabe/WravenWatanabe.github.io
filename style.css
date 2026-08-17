@@ -8,9 +8,7 @@ body {
   font-size: 17px;
 }
 
-.scroller {
-  scrollbar-color: #8cec2d #09c3bd;
-}
+
 
 h1 {
   color: #8cec2d;
@@ -26,6 +24,7 @@ h1 ul {
   list-style-type: none;
   display: inline;
   width: min-content;
+  margin: 0 auto;
 }
 
 h1 a {
@@ -62,6 +61,8 @@ hr {
   border-style: dashed;
 }
 
+
+
 nav {
   background-color: #ea00d3;
   color: #09c3bd;
@@ -92,28 +93,75 @@ a {
   color: #ea00d3;
 }
 
+
+
 form {
-  display: table;
-  border: 1px dashed #09c3bd;
-  width: 530px;
-  margin: 0 auto;
-    padding: 10px 0px 0px 10px;
+  width: auto;
+  height: fit-content;
+  left: 0%;
+  border: 1px solid #09c3bd;
 
 }
 
-label {
-  padding: 5px 17px 5px;
-
+form label {
+  margin-top: 2%;
+  margin-left: 3%;
+  display: block;
+  padding-bottom: 1%;
 }
 
-input {
+form input {
   color: #09c3bd;
   background-color: black;
   display: block;
-  width: 500px;
-  margin: 0 auto;
-  border: 1px solid#09c3bd;
+  width: 560px;
+  border: 1px solid #09c3bd;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: auto;
+  font-family: "Courier New", Courier, Arial, sans-serif;
 }
+
+form input:nth-child(1) {
+  width: 200px;
+  margin: 3% auto;
+  font-weight: bold;
+}
+
+form input:nth-child(1):hover {
+  width: 200px;
+  margin: 3% auto;
+  background-color: #09c3bd;
+  color: black;
+}
+
+form textarea {
+  background-color: black;
+  border: 1px solid #09c3bd;
+  color: #09c3bd;
+  width: 560px;
+  height: 125px;
+  display: block;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: auto;
+  font-family: "Courier New", Courier, Arial, sans-serif;
+  resize: vertical;
+  scrollbar-color: #e67742 black;
+
+}
+
+button {
+  background-color: black;
+  color: #09c3bd;
+  border: 1px solid #ea00d3;
+  border-radius: 3px;
+}
+
+button:hover {
+  color: #e67742;
+}
+
 
 footer {
   background-color: #8cec2d;
@@ -128,7 +176,6 @@ footer {
   font-size: smaller;
   padding: 3px;
 }
-
 
 footer:hover {
   background-color: #ea00d3;
