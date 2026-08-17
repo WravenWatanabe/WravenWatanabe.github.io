@@ -155,11 +155,11 @@ button {
   background-color: black;
   color: #09c3bd;
   border: 1px solid #ea00d3;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 button:hover {
-  color: #e67742;
+  color: #8cec2d;
 }
 
 
