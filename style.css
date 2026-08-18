@@ -1,4 +1,6 @@
-@media (max-width: 600px) {
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+
   body {
     font-family: monospace, "Courier New", Courier, Arial, sans-serif;
     background-color: black;
@@ -8,8 +10,8 @@
     padding: 0 20px 20px 20px;
     font-size: 17px;
   }
-
 }
+
 
 
 body {
