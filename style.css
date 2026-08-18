@@ -1,3 +1,17 @@
+@media (max-width: 600px) {
+  body {
+    font-family: monospace, "Courier New", Courier, Arial, sans-serif;
+    background-color: black;
+    color: #09c3bd;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+    font-size: 17px;
+  }
+
+}
+
+
 body {
   font-family: monospace, "Courier New", Courier, Arial, sans-serif;
   background-color: black;
@@ -25,7 +39,7 @@ h1 ul {
   list-style-type: none;
   width: 150px;
   margin: 10px 5px 10px auto;
-  
+
 }
 
 h1 ul a {
