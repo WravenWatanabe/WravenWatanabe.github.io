@@ -2,6 +2,14 @@ body {
   font-family: monospace, "Courier New", Courier, Arial, sans-serif;
   background-color: black;
   color: #09c3bd;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+}
+
+main {
   width: 90%;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
@@ -11,9 +19,15 @@ body {
 p {
   padding-left: 3%;
 }
+
+
 section {
   padding-left: 3%;
 }
+section p {
+  padding-left: 0;
+}
+
 menu {
   padding-left: 3%;
 }
@@ -78,13 +92,13 @@ nav {
   border-radius: 1px;
   font-size: 22px;
   padding: 1px;
+  display: block;
+  left: 0;
 }
 
 nav:hover {
   color: #ea00d3;
-  display: block;
   background-color: #e67742;
-  width: 100%;
 }
 
 nav ul a:hover {
