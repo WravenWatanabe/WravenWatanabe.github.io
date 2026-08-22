@@ -55,14 +55,17 @@ h1 ul {
 
 h1 ul a {
   color: #09c3bd;
-  font-size: 20px;
+  font-size: 19px;
   text-decoration: none;
 }
 
 h1:hover {
-  color: hsl(178, 91%, 40%);
+  color: #09c3bd;
 }
 
+h1 ul a:hover {
+  color: #8cec2d;
+}
 
 main {
   width: 90%;
