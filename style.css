@@ -1,7 +1,19 @@
+html {
+  scrollbar-color: #09c3bd black;
+}
+
 body {
   font-family: monospace, "Courier New", Courier, "Arial Bold", sans-serif;
   background-color: black;
   color: #09c3bd;
+  overflow-y: scroll;
+}
+
+main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 20px 20px;
+  font-size: 14px;
 }
 
 header {
@@ -67,12 +79,6 @@ h1 ul a:hover {
   color: #8cec2d;
 }
 
-main {
-  width: 90%;
-  margin: 0 auto;
-  padding: 0 20px 20px;
-  font-size: 13px;
-}
 h2 {
   color: #8cec2d;
 }
