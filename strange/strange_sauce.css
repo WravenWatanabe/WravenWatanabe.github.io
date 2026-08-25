@@ -1,3 +1,42 @@
 body {
+    font-family: monospace, "Courier New", Courier, "Arial Bold", sans-serif;
     background-color: black;
+}
+
+.animation {
+    width: 830px;
+    height: 731px;
+    margin: 0 auto;
+    animation: my-anime 3s infinite;
+}
+
+@keyframes my-anime {
+    from {
+        background-color: white;
+    }
+
+    to {
+        background-color: #09c3bd;
+    }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer a {
+    color: #09c3bd;
+    text-shadow: 2px 2px #fa036a;
+    width: max-content;
+    text-align: center;
+    margin: auto;
+    padding: 3% 0 7%;
+    text-decoration: none;
+    display: block;
+}
+
+a:hover {
+    font-weight: bold;
 }
