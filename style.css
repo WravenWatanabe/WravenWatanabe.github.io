@@ -62,7 +62,6 @@ h1 ul {
   width: 150px;
   margin: auto;
   text-align: center;
-
 }
 
 h1 ul a {
@@ -150,5 +149,4 @@ footer {
 footer:hover {
   background-color: #ea00d3;
   color: #8cec2d;
-  border-radius: 2px;
 }

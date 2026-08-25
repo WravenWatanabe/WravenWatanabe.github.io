@@ -1,40 +1,51 @@
 body {
     font-family: monospace, "Courier New", Courier, "Arial Bold", sans-serif;
     background-color: black;
+    width: 100vw;
+    height: 100vh;
 }
 
-.animation {
-    width: 830px;
-    height: 731px;
+#null_background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
     margin: 0 auto;
-    animation: my-anime 3s infinite;
+    background: repeating-radial-gradient(circle at 17% 32%, rgb(192, 12, 12), black 0.00085px);
+    animation: tv-static 500s infinite;
 }
 
-@keyframes my-anime {
+@keyframes tv-static {
     from {
-        background-color: white;
+        background-size: 100% 100%;
     }
 
     to {
-        background-color: #09c3bd;
+        background-size: 200% 200%;
     }
 }
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
-footer a {
+
+header a {
     color: #09c3bd;
     text-shadow: 2px 2px #fa036a;
     width: max-content;
     text-align: center;
-    margin: auto;
-    padding: 3% 0 7%;
+    margin: 9% auto;
     text-decoration: none;
+    padding: 4px;
     display: block;
+    border: 1px solid #09c3bd;
+    border-radius: 1px;
+    box-shadow: #fa036a 2px 2px;
 }
 
 a:hover {
