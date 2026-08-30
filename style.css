@@ -17,8 +17,8 @@ main {
 }
 
 header {
-  width: 90%;
-  margin: auto;
+  width: 95%;
+  margin: 0 auto;
 }
 
 nav {
@@ -29,8 +29,10 @@ nav {
   border-radius: 1px;
   font-size: 22px;
   padding: 1px;
-  display: block;
+  display: flex;
+  justify-content: center;
   left: 0;
+  margin: auto;
 }
 
 nav:hover {
