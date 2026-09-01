@@ -2,10 +2,30 @@ body {
     font-family: monospace, "Courier New", Courier, "Arial Bold", sans-serif;
     background-color: black;
     width: 100vw;
-    height: 100vw;
-    overflow: hidden;
+    height: 100vh;
 }
 
+#null_background {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: repeating-radial-gradient(circle at 17% 32%, rgb(192, 12, 12), black 0.00085px);
+    animation: tv-static 500s infinite;
+}
+
+@keyframes tv-static {
+    from {
+        background-size: 100% 100%;
+    }
+
+    to {
+        background-size: 200% 200%;
+    }
+}
 
 header {
     position: fixed;
