@@ -29,5 +29,6 @@ header a {
 }
 
 a:hover {
-    font-weight: bold;
+    color: #fa036a;
+    text-shadow: 2px 2px #09c3bd;
 }
