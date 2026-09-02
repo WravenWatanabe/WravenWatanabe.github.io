@@ -32,3 +32,41 @@ a:hover {
     color: #fa036a;
     text-shadow: 2px 2px #09c3bd;
 }
+
+/*
+Source - https://stackoverflow.com/a/7319497
+Posted by Rich Bradshaw, modified by community. See post 'Timeline' for change history
+Retrieved 2026-09-02, License - CC BY-SA 4.0
+*/
+
+#circlediv {
+    animation: changeBg .5s infinite;
+    width: 100wv;
+    height: 100vh;
+}
+
+@keyframes changeBg {
+
+    0%,
+    100% {
+        background: repeating-radial-gradient(black,
+                lime 10px,
+                black,
+                black 20px)
+            };
+
+    75% {background: repeating-radial-gradient(black,
+                black 10px,
+                lime,
+                black 20px)}
+
+    50% {
+        background: repeating-radial-gradient(lime,
+                black 10px,
+                black,
+                lime 20px)
+    };
+
+    
+    
+}
