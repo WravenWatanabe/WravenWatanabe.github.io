@@ -22,14 +22,15 @@ header {
 
 nav {
   background-color: #ea00d3;
-  color: #09c3bd;
+  font-size: 22px;
   width: 100%;
   text-align: center;
-  border-radius: 1px;
-  font-size: 22px;
   display: flex;
   justify-content: center;
   margin: auto;
+  color: #09c3bd;
+  border-radius: 1px;
+
 }
 
 nav:hover {
@@ -38,7 +39,7 @@ nav:hover {
 }
 
 nav ul {
-padding: 0%;
+  padding: 0%;
 }
 
 nav a {
@@ -51,9 +52,9 @@ nav ul a:hover {
 }
 
 #aSelected {
-  font-weight: bold; 
-  text-decoration: dotted underline; 
-  text-decoration-thickness: 4px; 
+  font-weight: bold;
+  text-decoration: dotted underline;
+  text-decoration-thickness: 4px;
   text-decoration-inset: 2px;
 
 }
@@ -109,6 +110,7 @@ h3:hover {
 p {
   text-indent: 3%;
 }
+
 section {
   padding-left: 3%;
   padding-right: 3%;
