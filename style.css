@@ -120,7 +120,7 @@ section p {
   text-indent: 0;
 }
 
-section img {
+#contactCards {
   width: 102px;
   height: 178px;
 }
@@ -147,6 +147,10 @@ button {
 
 button:hover {
   color: #8cec2d;
+}
+
+.box {
+  display: flex;
 }
 
 footer {
