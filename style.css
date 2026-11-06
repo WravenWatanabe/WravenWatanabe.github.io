@@ -130,6 +130,12 @@ section p {
   border: solid black 3px;
 }
 
+#unopenedWindows:hover {
+  transform: scale(1.5);
+  margin-left: 5%;
+
+}
+
 menu {
   padding-left: 3%;
 }
