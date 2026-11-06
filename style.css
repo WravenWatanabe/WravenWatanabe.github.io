@@ -125,6 +125,11 @@ section p {
   height: 178px;
 }
 
+#contactCards:hover {
+  transform: scale(1.5);
+  border: solid black 3px;
+}
+
 menu {
   padding-left: 3%;
 }
